@@ -20,16 +20,16 @@
   - These links can be found [here](https://developers.google.com/speed/libraries/).
   - You should use a SRI hash for each of these CDN links like the example given in class. [Srihash](srihash.org) is an excellent tool for this.
 - HTML:
-  - [ ] A header with the name of your 'search engine' (be creative).
-  - [ ] A title of the same name.
-  - [ ] A text box with an ID of 'query'.
-  - [ ] A button with a value of 'Search' under your text box.
+  - [X] A header with the name of your 'search engine' (be creative).
+  - [X] A title of the same name.
+  - [X] A text box with an ID of 'query'.
+  - [X] A button with a value of 'Search' under your text box.
   - [ ] A second button that will display the current time.
-  - [ ] An empty div with an ID of 'searchResults'.
-  - [ ] A second empty div with an ID of 'time'.
+  - [X] An empty div with an ID of 'searchResults'.
+  - [X] A second empty div with an ID of 'time'.
 - CSS:
-  - [ ] Set the background of the page to an image of your choice. ([Unsplash](unsplash.com) is a great resource for free images)
-  - [ ] Set the visibility of the 'searchResults' and 'time' divs to hidden.
+  - [X] Set the background of the page to an image of your choice. ([Unsplash](unsplash.com) is a great resource for free images)
+  - [X] Set the visibility of the 'searchResults' and 'time' divs to hidden.
   - [ ] Style the rest of the page however you see fit. points will be lost if little or no effort is given in styling your site.
 - JS:
   - [ ] Replace 'my-api-url' under the ajax call with the url from your search API.
