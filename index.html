@@ -4,34 +4,49 @@
 
 <head>
 
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha384-i61gTtaoovXtAbKjo903+O55Jkn2+RtzHtvNez+yI49HAASvznhe9sZyjaSHTau9" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Jquery info </!-->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
-    
-    
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1/11/3/themes/hot-sneaks/jquery-ui.css" />
-    <title>Search Like the Birds</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/sunny/jquery-ui.css">
+
+
+    <title>Finders Keepers Search Engine</title>
 
 </head>
 
 <body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">The best search engine</h1>
+            <p class="lead">Welcome to the most efficient search engine out there! Enjoy, hope you learn lots!</p>
+        </div>
+    </div>
 
-    <script type="text/javascript" src="./script.js"></script>
+
+
     <div id="text1">
-        <h1>Search Like the Birds</h1>
+        <h1 class="title" onclick="backgroundChange()">Finders Keepers Search Engine</h1>
         <input type="text" id="query" name="query">
     </div>
+    <div class="buttons" id="buttons">
+        <button id="searchBTN" onclick="apiSearching()" name="searchBTN">Search</button>
+        <button id="timeBTN" onclick="curTime()" name="timeBTN">Current Time</button>
+    </div>
 
-    <div id="searchResults" title="searchResults">
+    <div id="searchResults">
 
     </div>
-    <div><button id="searchBTN" onclick="searchSomething()" name="searchBTN">Search</button></div>
-    <div><button id="timeBTN" onclick="showTime()" name="timeBTN">Current Time (Click Me)</button></div>
-
 
     <div id="time">
 
     </div>
+
+    <script type="text/javascript" src="./js/script.js">
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha384-i61gTtaoovXtAbKjo903+O55Jkn2+RtzHtvNez+yI49HAASvznhe9sZyjaSHTau9" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
 </body>
 
 </html>
